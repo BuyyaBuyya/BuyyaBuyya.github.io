@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Document Converter</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Document Converter</h1>
+        <div id="upload-area" class="upload-area">
+            <p>Drag & Drop your file here or Click to Upload</p>
+        </div>
+        <div id="file-name"></div>
+        <select id="format-select">
+            <option value="">Select output format</option>
+            <option value="pdf">PDF</option>
+            <option value="docx">DOCX</option>
+            <option value="txt">TXT</option>
+        </select>
+        <button id="convert-btn" disabled>Convert</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
